@@ -30,7 +30,7 @@ devel-flashable:
   script:
     - apt update
     - apt install -y img2simg jq sudo wget xz-utils
-    - ./build/prepare-fake-ota.sh out/device_beryllium.tar.xz ota
+    - ./build/prepare-fake-ota.sh out/device_X00TD.tar.xz ota
     - mkdir -p out
     - ./build/system-image-from-ota.sh ota/ubuntu_command out
   artifacts:
