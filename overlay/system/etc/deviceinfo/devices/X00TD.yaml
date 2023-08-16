@@ -12,3 +12,6 @@ X00TD:
     - /sys/class/leds/led:torch_0/brightness
   FlashlightSwitchPath:
     - /sys/class/leds/led:switch_0/brightness
+  VibrateDurationExtraMs: 50
+  DoubleTapToWake:
+    - /sys/kernel/touchpanel/dclicknode|1|0
